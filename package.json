@@ -1,0 +1,33 @@
+{
+  "name": "@line45/elevation-profiler",
+  "version": "1.0.4",
+  "description": "Javascript utility for generating an elevataion profile from a GeoJSON LineString.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LINE45/elevation-profiler.git"
+  },
+  "keywords": [
+    "Line45",
+    "elevation",
+    "profiler",
+    "Mapbox",
+    "GeoJSON"
+  ],
+  "author": "Line 45",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LINE45/elevation-profiler/issues"
+  },
+  "homepage": "https://github.com/LINE45/elevation-profiler#readme",
+  "dependencies": {
+    "@mapbox/sphericalmercator": "^1.1.0",
+    "@mapbox/tile-cover": "^3.0.2",
+    "@turf/along": "^6.3.0",
+    "@turf/length": "^6.3.0",
+    "get-pixels": "^3.3.2"
+  }
+}

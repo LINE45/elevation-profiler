@@ -1,6 +1,6 @@
 {
   "name": "@line45/elevation-profiler",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Javascript utility for generating an elevataion profile from a GeoJSON LineString.",
   "main": "main.js",
   "scripts": {
